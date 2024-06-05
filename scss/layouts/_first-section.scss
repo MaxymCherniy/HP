@@ -1,0 +1,11 @@
+.first-section {
+	height: 800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	&__title{
+		margin-bottom: 80px;
+	}
+}

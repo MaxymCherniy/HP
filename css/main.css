@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "BluuNextCyrillic";
+  src: url("../../fonts/Bluu Next Cyrillic.ttf") format("ttf"), url("../../fonts/Bluu Next Cyrillic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1D1D1D;
+  font-family: "BluuNextCyrillic";
+}
+
+.container {
+  padding: 0 130px;
+}
+
+.main-section {
+  padding-bottom: 100px;
+}
+
+.first-section-background {
+  position: absolute;
+  z-index: -1;
+  background: url("../../images/first-section-background.jpg") no-repeat center/cover;
+  height: 740px;
+  width: 100%;
+}
+
+.first-section {
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.first-section__title {
+  margin-bottom: 80px;
+}
+
+.second-section__cards-box {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 80px;
+  color: #FABF59;
+  line-height: normal;
+}
+
+.btn {
+  border: none;
+  border-radius: 100px;
+  height: 60px;
+  padding: 18px 36px;
+  font-size: 18px;
+  background-color: #F9B50C;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: #c39726;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+.card__img {
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
