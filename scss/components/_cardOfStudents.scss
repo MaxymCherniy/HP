@@ -1,0 +1,17 @@
+.card-student {
+	position: relative;
+	display: flex;
+	flex: 0 0 25%;
+	&__text {
+		position: absolute;
+		top: 350px;
+		left: 20px;
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+	}
+	&__img {
+		z-index: -5;
+		border-radius: 20px;
+	}
+}

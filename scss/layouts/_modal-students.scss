@@ -1,0 +1,10 @@
+.modal-students {
+	width: 100%;
+	height: 800px;
+
+	&__card-box {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
